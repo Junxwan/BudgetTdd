@@ -1,0 +1,20 @@
+{
+  "name": "ne0002/test",
+  "authors": [
+    {
+      "name": "Junx wan",
+      "email": "hugh8845sam@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^7.4",
+    "mockery/mockery": "^1.2",
+    "nesbot/carbon": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Test\\": "tests/"
+    }
+  }
+}
